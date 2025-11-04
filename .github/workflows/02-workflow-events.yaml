@@ -3,8 +3,8 @@ name: 02 - Workflow Events
 on:
    push:
    pull_request:
-   worklow_dispatch:
-   
+   workflow_dispatch:
+
 jobs:
   echo:
    runs-on: ubuntu-latest
